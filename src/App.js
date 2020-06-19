@@ -155,7 +155,6 @@ class App extends Component {
 
     for (var key in collection) {
       colArr.push(collection[key]);
-      searchArray.push({key: collection[key].id, value: collection[key].name})
     }
  
     return (
